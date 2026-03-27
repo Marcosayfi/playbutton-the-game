@@ -1,4 +1,4 @@
-package;
+package; // package thingy
 
 /**
  * Helper class to access asset paths in a type-safe manner.
@@ -31,5 +31,6 @@ package;
  * and provides you some control on how `AssetPaths`'s fields are built.
  * @see [Flixel 5.0.0 Migration guide - AssetPaths has less caveats](https://github.com/HaxeFlixel/flixel/wiki/Flixel-5.0.0-Migration-guide#assetpaths-has-less-caveats-2575)
 **/
-@:build(flixel.system.FlxAssets.buildFileReferences("assets", true))
-class AssetPaths {}
+@:build(flixel.system.FlxAssets.buildFileReferences("assets", true)) // where put asset
+class AssetPaths {} // class
+// empty
